@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schiphol Dashboard — Zaki Begzad</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- main.js is gecompileerd vanuit main.ts -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Ga naar inhoud</a>
+
+<!-- navigatie -->
+<nav id="nav" aria-label="Hoofdnavigatie">
+    <a href="index.html" class="nav-logo" aria-label="Zaki Begzad — terug naar portfolio">Z·B</a>
+    <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html#about">Over mij</a></li>
+        <li><a href="index.html#projects">Projecten</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="burger" aria-label="Menu openen" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</nav>
+
+<!-- hero van de projectpagina -->
+<section class="proj-hero">
+    <div class="proj-hero-inner">
+        <a href="index.html#projects" class="proj-back" aria-label="Terug naar projectenoverzicht">&#8592; Terug</a>
+        <div class="proj-tags-hero">
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+        </div>
+        <h1 class="proj-title">
+            Schiphol<br>
+            <em>Dashboard</em>
+        </h1>
+        <p class="proj-tagline">Real-time vluchtinformatie op één overzichtelijk dashboard.</p>
+    </div>
+</section>
+
+<main id="main-content">
+
+<!-- beschrijving en info -->
+<section class="proj-overview">
+    <div class="proj-overview-inner">
+
+        <div class="proj-desc-block reveal">
+            <p class="sec-eyebrow">Over het project</p>
+            <h2 class="sec-title">
+                Live data,<br>
+                <em>helder weergegeven.</em>
+            </h2>
+            <p class="proj-body">
+                Het Schiphol Dashboard toont actuele vluchtinformatie via een externe API.
+                Gebruikers kunnen vluchten filteren op bestemming, status en tijdstip.
+                Het dashboard is volledig responsive en werkt zowel op mobiel als op desktop.
+            </p>
+            <p class="proj-body">
+                Het project is gemaakt als leeropdracht gericht op het werken met externe API&rsquo;s
+                en het verwerken van asynchrone data in React met TypeScript.
+            </p>
+        </div>
+
+        <aside class="proj-meta reveal" aria-label="Projectinformatie">
+            <dl class="meta-list">
+                <div class="meta-row">
+                    <dt>Jaar</dt>
+                    <dd>2025</dd>
+                </div>
+                <div class="meta-row">
+                    <dt>Rol</dt>
+                    <dd>Front-end developer</dd>
+                </div>
+                <div class="meta-row">
+                    <dt>Stack</dt>
+                    <dd>React &middot; TypeScript &middot; REST API</dd>
+                </div>
+                <div class="meta-row">
+                    <dt>Type</dt>
+                    <dd>Leeropdracht</dd>
+                </div>
+            </dl>
+        </aside>
+
+    </div>
+</section>
+
+<!-- wat het project kan -->
+<section class="proj-features">
+    <div class="proj-features-inner">
+        <p class="sec-eyebrow reveal">Functionaliteiten</p>
+        <ol class="features-list" role="list">
+
+            <li class="feature-item reveal">
+                <span class="feat-num" aria-hidden="true">01</span>
+                <div class="feat-content">
+                    <h3 class="feat-title">Live vluchtdata</h3>
+                    <p class="feat-desc">Realtime koppeling met een externe API voor actuele vertrektijden, aankomsten en vluchtstatussen.</p>
+                </div>
+            </li>
+
+            <li class="feature-item reveal">
+                <span class="feat-num" aria-hidden="true">02</span>
+                <div class="feat-content">
+                    <h3 class="feat-title">Filteren &amp; zoeken</h3>
+                    <p class="feat-desc">Filteren op bestemming, vluchtcode of status. Resultaten worden direct bijgewerkt zonder herladen.</p>
+                </div>
+            </li>
+
+            <li class="feature-item reveal">
+                <span class="feat-num" aria-hidden="true">03</span>
+                <div class="feat-content">
+                    <h3 class="feat-title">Responsive interface</h3>
+                    <p class="feat-desc">Volledig werkend op desktop en mobiel, met een aangepaste lay-out per schermgrootte.</p>
+                </div>
+            </li>
+
+        </ol>
+    </div>
+</section>
+
+<!-- screenshots plaatsen -->
+<section class="proj-gallery" aria-label="Schermafbeeldingen">
+    <div class="gallery-grid">
+        <figure class="gallery-item tall reveal" aria-label="Screenshot desktopversie">
+            <div class="gallery-ph">
+                <span class="gallery-ph-label">Desktop</span>
+            </div>
+        </figure>
+        <figure class="gallery-item reveal" aria-label="Screenshot mobiele versie">
+            <div class="gallery-ph">
+                <span class="gallery-ph-label">Mobiel</span>
+            </div>
+        </figure>
+        <figure class="gallery-item reveal" aria-label="Screenshot filterfunctie">
+            <div class="gallery-ph">
+                <span class="gallery-ph-label">Filter</span>
+            </div>
+        </figure>
+    </div>
+</section>
+
+<!-- link naar github -->
+<section class="proj-cta reveal">
+    <div class="proj-cta-inner">
+        <div class="ornament" aria-hidden="true">
+            <div class="orn-line"></div>
+            <div class="orn-c">
+                <div class="orn-dot"></div>
+                <div class="orn-d"></div>
+                <div class="orn-dot"></div>
+            </div>
+            <div class="orn-line"></div>
+        </div>
+        <h2 class="proj-cta-title">Bekijk de code</h2>
+        <p class="proj-cta-sub">De volledige broncode staat op GitHub.</p>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="btn-outline proj-gh-btn" aria-label="Bekijk Schiphol Dashboard op GitHub">GitHub &rarr;</a>
+    </div>
+</section>
+
+</main>
+
+<!-- footer -->
+<footer>
+    <span class="ft-name">Zaki Begzad</span>
+    <span class="ft-copy">&copy; 2026</span>
+</footer>
+
+</body>
+</html>

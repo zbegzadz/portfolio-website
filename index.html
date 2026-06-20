@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaki Begzad</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- main.js is gecompileerd vanuit main.ts -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Ga naar inhoud</a>
+
+<!-- navigatie -->
+<nav id="nav" aria-label="Hoofdnavigatie">
+    <a href="#" class="nav-logo" aria-label="Zaki Begzad — naar boven">Z·B</a>
+    <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">Over mij</a></li>
+        <li><a href="#projects">Projecten</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-burger" id="burger" aria-label="Menu openen" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</nav>
+
+<!-- hero -->
+<section class="hero">
+
+    <div class="corner-orn" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2 L2 78" stroke="#C8A445" stroke-width="1"/>
+            <path d="M2 2 L78 2" stroke="#C8A445" stroke-width="1"/>
+            <circle cx="2"  cy="2"  r="2.5" fill="#C8A445"/>
+            <circle cx="40" cy="2"  r="1.5" fill="#C8A445" opacity="0.5"/>
+            <circle cx="2"  cy="40" r="1.5" fill="#C8A445" opacity="0.5"/>
+        </svg>
+    </div>
+
+    <header class="hero-content">
+        <p class="hero-eyebrow">Portfolio &mdash; Web Design &amp; Development</p>
+        <h1 class="hero-name">
+            Zaki<br>
+            <em>Begzad</em>
+        </h1>
+        <div class="ornament" aria-hidden="true">
+            <div class="orn-line"></div>
+            <div class="orn-c">
+                <div class="orn-dot"></div>
+                <div class="orn-d"></div>
+                <div class="orn-dot"></div>
+            </div>
+            <div class="orn-line"></div>
+        </div>
+        <p class="hero-sub">HTML &amp; CSS &nbsp;&middot;&nbsp; JavaScript &nbsp;&middot;&nbsp; PHP &nbsp;&middot;&nbsp; Laravel</p>
+        <div class="hero-cta">
+            <a href="#projects" class="btn-outline">Bekijk projecten</a>
+        </div>
+    </header>
+
+    <div class="scroll-hint" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+    </div>
+
+</section>
+
+<main id="main-content">
+
+<!-- scrollende balk met technieken -->
+<section class="band" aria-label="Technologieën">
+    <div class="band-track">
+        <span class="band-item">HTML</span>
+        <div class="band-sep"></div>
+        <span class="band-item">CSS</span>
+        <div class="band-sep"></div>
+        <span class="band-item">JavaScript</span>
+        <div class="band-sep"></div>
+        <span class="band-item">PHP</span>
+        <div class="band-sep"></div>
+        <span class="band-item">Laravel</span>
+        <div class="band-sep"></div>
+        <span class="band-item">React</span>
+        <div class="band-sep"></div>
+        <span class="band-item">MySQL</span>
+        <div class="band-sep"></div>
+        <span class="band-item">Git</span>
+        <div class="band-sep"></div>
+        <span class="band-item">Docker</span>
+        <div class="band-sep"></div>
+        <span class="band-item">REST APIs</span>
+        <!-- duplicaat voor naadloze loop -->
+        <div class="band-sep" aria-hidden="true"></div>
+        <span class="band-item" aria-hidden="true">HTML</span>
+        <div class="band-sep"></div>
+        <span class="band-item">CSS</span>
+        <div class="band-sep"></div>
+        <span class="band-item">JavaScript</span>
+        <div class="band-sep"></div>
+        <span class="band-item">PHP</span>
+        <div class="band-sep"></div>
+        <span class="band-item">Laravel</span>
+        <div class="band-sep"></div>
+        <span class="band-item">React</span>
+        <div class="band-sep"></div>
+        <span class="band-item">MySQL</span>
+        <div class="band-sep"></div>
+        <span class="band-item">Git</span>
+        <div class="band-sep"></div>
+        <span class="band-item">Docker</span>
+        <div class="band-sep"></div>
+        <span class="band-item">REST APIs</span>
+    </div>
+</section>
+
+<!-- over mij -->
+<section class="about-intro" id="about">
+    <div class="about-inner">
+
+        <p class="sec-eyebrow reveal">Over mij</p>
+        <h2 class="sec-title reveal">
+            Een passie voor<br>
+            <em>mooi design.</em>
+        </h2>
+
+        <div class="bio-grid">
+            <div class="bio-text">
+                <p class="drop-cap reveal">
+                    Ik ben een front-end developer met een scherp oog voor esthetiek en detail.
+                    Mijn werk draait om het vertalen van ideeën naar elegante, doordachte interfaces
+                    die zowel functioneel als visueel aansprekend zijn.
+                </p>
+                <p class="reveal">
+                    Met HTML, CSS, JavaScript en frameworks zoals Laravel en React bouw ik ervaringen
+                    die iets achterlaten &mdash; zoals een goed boek, of een film die je bijblijft
+                    nadat het doek gevallen is.
+                </p>
+            </div>
+            <aside class="bio-aside reveal">
+                <ul class="skills-list" role="list">
+                    <li>HTML &amp; CSS         <span class="skill-dot" aria-hidden="true"></span></li>
+                    <li>Typografie &amp; Layout <span class="skill-dot"></span></li>
+                    <li>Responsive Design      <span class="skill-dot"></span></li>
+                    <li>JavaScript &amp; React  <span class="skill-dot"></span></li>
+                    <li>PHP &amp; Laravel       <span class="skill-dot"></span></li>
+                    <li>MySQL &amp; REST APIs   <span class="skill-dot"></span></li>
+                </ul>
+            </aside>
+        </div>
+
+    </div>
+</section>
+
+<!-- techstack icoontjes -->
+<section class="stack-section reveal">
+    <div class="stack-card">
+        <p class="stack-eyebrow">Techstack</p>
+        <div class="stack-grid">
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" class="stack-logo">
+                <span class="stack-name">HTML</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS" class="stack-logo">
+                <span class="stack-name">CSS</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" class="stack-logo">
+                <span class="stack-name">JavaScript</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" class="stack-logo">
+                <span class="stack-name">React</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel" class="stack-logo">
+                <span class="stack-name">Laravel</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" class="stack-logo">
+                <span class="stack-name">MySQL</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" class="stack-logo">
+                <span class="stack-name">PHP</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" class="stack-logo">
+                <span class="stack-name">Postman / APIs</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" class="stack-logo">
+                <span class="stack-name">Git</span>
+            </div>
+            <div class="stack-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" class="stack-logo">
+                <span class="stack-name">Docker</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- projecten -->
+<section class="projects-section" id="projects">
+    <div class="projects-inner">
+        <p class="sec-eyebrow reveal">Projecten</p>
+        <h2 class="sec-title reveal">
+            Gebouwd met<br>
+            <em>zorg &amp; detail.</em>
+        </h2>
+        <div class="projects-grid">
+
+            <article class="project-card reveal">
+                <div class="project-top">
+                    <span class="project-num" aria-hidden="true">01</span>
+                    <div class="project-tags" aria-label="Technologieën">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
+                    </div>
+                </div>
+                <h3 class="project-title">Schiphol Dashboard</h3>
+                <p class="project-desc">Real-time vluchtinformatie dashboard met live API-data, filtering op bestemming en een responsive interface voor mobiel &amp; desktop.</p>
+                <footer class="project-footer">
+                    <a href="https://gitlabsrv05.stichtingpraktijkleren.nl/zaki.begzad1/bp-p8" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Bekijk Schiphol Dashboard op GitHub">Bekijken &rarr;</a>
+                </footer>
+            </article>
+
+            <article class="project-card reveal">
+                <div class="project-top">
+                    <span class="project-num" aria-hidden="true">02</span>
+                    <div class="project-tags" aria-label="Technologieën">
+                        <span class="tag">Laravel</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                </div>
+                <h3 class="project-title">Tandartsen Platform</h3>
+                <p class="project-desc">Webplatform voor tandartspraktijken met afsprakenbeheer, patiëntdossiers en een overzichtelijk dashboard voor medewerkers.</p>
+                <footer class="project-footer">
+                    <a href="https://gitlabsrv05.stichtingpraktijkleren.nl/oitsdo24b/beroepsproject-p5/groep-4/tandartsplatform" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Bekijk Tandartsen Platform op GitHub">Bekijken &rarr;</a>
+                </footer>
+            </article>
+
+            <article class="project-card reveal">
+                <div class="project-top">
+                    <span class="project-num" aria-hidden="true">03</span>
+                    <div class="project-tags" aria-label="Technologieën">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                </div>
+                <h3 class="project-title">Belasting Toeslagen</h3>
+                <p class="project-desc">Systeem voor het berekenen en aanvragen van belastingtoeslagen, met validatie, gebruikersbeheer en een heldere aanvraagflow.</p>
+                <footer class="project-footer">
+                    <a href="https://gitlabsrv05.stichtingpraktijkleren.nl/oitsdo24b/periode_7/beroepsproject/P7_OITSDO24B-groep-1" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Bekijk Belasting Toeslagen op GitHub">Bekijken &rarr;</a>
+                </footer>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- persoonlijk stukje over mijn favoriete film -->
+<section class="film-section reveal">
+
+    <header class="film-header">
+        <div class="film-header-inner">
+            <div class="f-orn" aria-hidden="true">
+                <div class="f-orn-line"></div>
+                <div class="f-orn-d"></div>
+            </div>
+            <p class="f-eyebrow">Favoriete film</p>
+            <h3 class="f-title"><em>Barry Lyndon</em></h3>
+            <p class="f-meta">Stanley Kubrick &mdash; 1975</p>
+        </div>
+    </header>
+
+    <figure class="film-gif dark">
+        <img src="barry-lyndon.gif" alt="Barry Lyndon">
+    </figure>
+
+    <div class="film-txt bg-off">
+        <div class="film-txt-inner">
+            <p class="f-desc">
+                Een film van Stanley Kubrick over een Ierse avonturier die zijn weg omhoog baant
+                in de Europese adel. Opgenomen met speciale NASA-lenzen bij kaarslicht.
+                Elke scène ziet eruit als een achttiende-eeuws schilderij.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<!-- contact -->
+<section class="contact-section" id="contact">
+    <div class="contact-inner">
+        <p class="sec-eyebrow contact-eyebrow reveal">Contact</p>
+        <h2 class="sec-title contact-title reveal">
+            Laten we<br>
+            <em>samenwerken.</em>
+        </h2>
+        <p class="contact-sub reveal">Heb je een project, een vraag of gewoon zin om te praten?</p>
+        <div class="contact-links reveal">
+            <a href="mailto:hallo@zakibegzad.nl" class="btn-outline">Stuur een bericht</a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="contact-gh">GitHub &rarr;</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- footer -->
+<footer>
+    <span class="ft-name">Zaki Begzad</span>
+    <span class="ft-copy">&copy; 2026</span>
+</footer>
+
+
+</body>
+</html>
