@@ -32,14 +32,20 @@ portfoliosite/
 ├── index.html
 ├── project.html
 ├── style.css
-├── main.ts        (bronbestand TypeScript)
-├── main.js        (gecompileerd vanuit main.ts)
-└── media/
-    └── barry-lyndon.gif
+├── main.ts                              (bronbestand TypeScript)
+├── main.js                              (gecompileerd vanuit main.ts)
+├── tsconfig.json
+├── media/
+│   └── barry-lyndon.gif
+└── documentation/
+    ├── Conceptsheet_ZakiBegzad.docx
+    ├── Kleurenpalette_ZakiBegzad.docx
+    ├── Toegankelijkheidsplan_ZakiBegzad.docx
+    └── UXUI_Document_ZakiBegzad.docx
 ```
 
 ## TypeScript compileren
 
 ```bash
-tsc main.ts
+tsc
 ```
